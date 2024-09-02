@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    background: url("ss.jpg");
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #444;
+    width:400px ;
+    height: 70px;
+}
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #555;
+}
+section {
+    padding: 2em;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height:15px;
+    
+}
+#dt{
+    height: 400px;
+    width: 1000px;
+    margin-left: 170px;
+}
+#size{
+    text-align: center;
+    font-size: 50px ;
+    color: rgb(199, 89, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hair{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(58, 211, 160);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+a{
+text-decoration: none;
+color: rgb(199, 89, 46);
+}
+#op{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(199, 89, 46)
+}
+
+
+.my class{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#services{
+text-align: center;
+}
+/*#home{
+    background-color: rgb(44, 7, 211);
+}
+#products{
+ background-color:rgb(44, 7, 211) ;
+}
+#contact{
+    background-color: rgb(44, 7, 211);
+}
+#services{
+    background-color: rgb(44, 7, 211);
+}
+#cuting{
+    background-color: rgb(44, 7, 211);
+}
+#about{
+    background-color: rgb(44, 7, 211);
+}*/
+.hair{
+    height: 300px;
+    width: 300px;
+}
+#contact{
+  text-align:left;
+}
+.home{
+text-align:left;
+}
